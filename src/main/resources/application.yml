@@ -22,3 +22,8 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ANT_PATH_MATCHER 
+
+  security:
+    user:
+      name: admin
+      password: password
